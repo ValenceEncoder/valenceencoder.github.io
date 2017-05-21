@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css">
-		</head>
-		<body>
-      <img src="{{ site.github.url }}/img/banner-white.svg" alt="Valence Logo"/>
-			<nav>
-	    		<ul>
-	        		<li><a href="{{ site.github.url}}">HOME</a></li>
-		        	<li><a href="#downloads">DOWNLOADS</a></li>
-	        		<li><a href="#features">FEATURES</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+<html>
 
-			{{ content }}
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css">
+</head>
 
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="https://github.com/ValenceEncoder/Valence">github.com/ValenceEncoder/Valence</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<body>
+  <img src="{{ site.github.url }}/img/banner-white.svg" alt="Valence Logo" />
+  <nav>
+    <ul>
+      <li><a href="{{ site.github.url}}">HOME</a></li>
+      <li><a href="#downloads">DOWNLOADS</a></li>
+      <li><a href="#features">FEATURES</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+
+    {{ content }}
+
+  </div>
+  <!-- /.container -->
+  <footer>
+    <ul>
+      <li><a href="https://github.com/ValenceEncoder/Valence">github.com/ValenceEncoder/Valence</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>
