@@ -1,2 +1,7 @@
 theme: jekyll-theme-minimal
 markdown: kramdown
+timezone: Australia/Sydney
+title: Valence Video Encoder
+description: An easy to use video converter for Windows, macOS and Linux
+show_downloads: true
+logo: img/banner.svg
